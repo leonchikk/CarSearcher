@@ -1,6 +1,7 @@
 ﻿namespace CarSearcher.Core.Entities
 {
-    public class Subscription
+    public class Subscription: BaseEntity<int>
     {
+        public string Name { get; set; }
     }
 }

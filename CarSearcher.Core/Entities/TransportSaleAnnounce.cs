@@ -13,14 +13,14 @@ namespace CarSearcher.Core.Entities
         }
 
         public long AdNumber { get; set; }
-        public int Year { get; set; }
+        public DateTime Year { get; set; }
         public int Mileage { get; set; }
         public double PriceInDollars { get; set; }
         public string SourceLink { get; set; }
         public string PreviewImageLink { get; set; }
         public DateTime UpdateOfferTime { get; set; }
         public string Description { get; set; }
-        public int EngineVolumetric { get; set; }
+        public double EngineVolumetric { get; set; }
         public int CityId { get; set; }
         public int? ModelId { get; set; }
         public int? BrandId { get; set; }
